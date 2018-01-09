@@ -1,15 +1,8 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div id="app">
+		<router-view/>
+	</div>
 </template>
-
-<script>
-export default {
-  name: 'app'
-}
-</script>
-
 <style>
 /* 默认样式 */
 html{height:100%;}
@@ -28,6 +21,8 @@ input,textarea,select{ margin:0; }
 input,textarea{ padding:0; }
 input::-ms-clear{display:none; }
 
+/*canvas样式*/
+#sakura{ width:100%; height:100%; position:fixed; top:0;z-index:-1;}
 
 /* 浮动公共样式 */
 .fl{ float:left; _display:inline; }

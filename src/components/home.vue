@@ -46,10 +46,10 @@
 		methods:{
 			getData(){
 				var _this=this;
-				this.$http.get('/williamlau/home').then(function(res){
-					console.log(res);
-					_this.aaa=res;
-				});
+				// this.$http.get('/williamlau/home').then(function(res){
+				// 	console.log(res);
+				// 	_this.aaa=res;
+				// });
 			}
 		}
 	}

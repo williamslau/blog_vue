@@ -64,11 +64,11 @@
 <style scoped>
 	header{
 		height:50px;
-		/*background:rgba(0,0,0,0.3);*/
-		background:#00419d;
+		background:rgba(0,0,0,0.7);
+		/*background:#e1e1e1;*/
 	}
 	section{
-		background:#bae1e0;
+		background:rgba(255,255,255,0.3);
 	}
 
 	header h1{
