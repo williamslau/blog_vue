@@ -11,7 +11,8 @@
 	git remote add origin https://github.com/williamslau/blog_vue.git
 	# 执行push
 	git push -u origin master
-
+	#克隆到本地
+	git clone 地址
 # 有关网址
 	# canvas素材：
 		http://www.17sucai.com/pins/tag/418.html
