@@ -13,6 +13,7 @@
 	git push -u origin master
 	#克隆到本地
 	git clone 地址
+  ```
   #清空仓库和提交记录
   git checkout --orphan latest_branch
   git add -A
@@ -20,6 +21,8 @@
   git branch -D master
   git branch -m master
   git push -f origin master
+  ```
+  
 # 有关网址
 	# canvas素材：
 		http://www.17sucai.com/pins/tag/418.html
